@@ -1,3 +1,3 @@
 # Bootstrap_project_Active-Box
-HTML,CSS,Bootstrap
+Bootstrap
 Demo Link :
