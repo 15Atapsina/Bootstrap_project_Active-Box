@@ -1,0 +1,79 @@
+@media(min-width:0px) and (max-width:575px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    /* header start */
+    .navbar .nav-link{
+        background: rgba(0,0,0,.8);
+        border: 1px solid white;
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+    }
+    .navbar{
+        max-height: 80px;
+        position: relative;
+        z-index: 1;
+     }
+     div.bottom{
+        border-bottom: none;
+    }
+    /* banner start  */
+    .banner-content h1{
+        color: var(--white-color);
+        font-size: 45px;
+        max-width: 500px;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .banner-content p{
+        color: white;
+        max-width: 80%;
+        margin: auto;
+    }
+    /* banner end */
+    /* img */
+    .col-3{
+        width: 100%;
+    }
+    .text{
+        top: 40%;
+        left: 40%;
+        text-align: center;
+    }
+    /* carousoul start */
+    .main-area .row img{
+        border: 2px solid;
+        color: var(--white-color);
+        width: 100%;
+        display: inline-block;
+    }
+    .main-area .row{
+        --bs-gutter-x: 0px;
+    }
+    /* carousel satr */
+    .main-area .row img {
+        border: none;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 0.1rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: #fff;
+        text-align: left;
+      }
+      .carousel-indicators [data-bs-target] {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+      }
+     .carousel-caption h2{
+        font-size:20px;
+      }
+      .carousel-caption p{
+        font-size: 12px;
+      }
+     /* carousoul end */
+}
